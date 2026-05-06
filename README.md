@@ -45,8 +45,9 @@ All domains (genetic, environmental, brain, behavioral) must be aligned by:
 If you use this framework or code, please cite:
 
 Wei, M., & Peng, Q. (2026).  
-*DynoSys: A Dynamic Systems Framework for Multimodal Integration of Genetic, Environmental, and Neurobiological Signals.*   
-DOI: https://doi.org/XXXXX
+*DynoSys: A Dynamic Systems Framework for Multimodal Integration of Genetic, Environmental, and Neurobiological Signals.*  
+arXiv:2605.02952 [q-bio.OT].  
+https://doi.org/10.48550/arXiv.2605.02952
 
 
 
