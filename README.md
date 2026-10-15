@@ -38,7 +38,23 @@ Input data must be prepared in **longitudinal long format**, where each row repr
 
 All domains (genetic, environmental, brain, behavioral) must be aligned by:
 - subject ID  
-- time index  
+- time index
+
+## Data access and responsible use
+
+This repository distributes analysis code and does not include participant-level research data. Users must obtain input data through the appropriate authorized providers and comply with applicable data-use agreements and institutional requirements.
+
+For reproducibility, record the cohort, data release/version, accession or DOI where available, preprocessing steps, and exact code commit used.
+
+Generated files may contain participant identifiers, individual measurements, outcomes, or predictions. Do not upload these files to a public repository without authorization. The software license does not grant permission to redistribute external datasets.
+
+## Validation status and updates
+
+This repository contains research code that may include undetected errors or limitations. The current source-code review did not include end-to-end execution or independent reproduction of the associated study results.
+
+Known issues identified during review include import/path inconsistencies and a fallback that uses the test set for model selection when a separate validation set is unavailable. These issues require correction and validation.
+
+Users should independently assess suitability for their analysis. Corrections following further checks will be documented in the commit history or release notes, including effects on outputs when known.
 
 ## 📄 Citation
 
